@@ -1,0 +1,55 @@
+#Model层
+--/backend/models/contract/
+	--Category.php
+	--FileField.php
+	--FileLog.php
+	--TemplateField.php
+	--TemplateFile.php
+	
+
+	
+#controller、view层	
+--/backend/modules/contract/
+	--controller
+		--DefaultController.php			
+	--views
+		--default
+			--batch.php
+			--index.php
+			--list.php
+			--simple.php
+
+
+			
+#上传的合同模板文件			
+--/backend/contracttpl
+	--rz
+		*.docx
+	--rzyx
+		*.docx
+		
+
+		
+#服务器生成的合同word文件		
+	--temp
+		*docx
+		
+		
+		
+#数据处理
+--/common/data
+	--CheckData.php //数据验证类
+
+	
+
+#文件操作	
+--/common/file
+	--File.php  //文件操作类
+
+
+
+
+
+			
+
+
